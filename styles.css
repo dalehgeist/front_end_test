@@ -1,0 +1,138 @@
+ 	body {
+  		padding: 10px;
+  		font-size: 100%;
+  		font-family: 'Lato', sans-serif;
+  		line-height: 1.5;
+  		background-color: #eee;
+  	}
+
+	article {
+	    max-width:500px;
+	    margin:auto;
+	}
+
+	fieldset {
+	    background-color: white;
+	}
+
+  	}
+  	label {
+	  margin-right: 15px;
+	  line-height: 32px;
+	}
+
+	input {
+	  -webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+
+	  border-radius: 50%;
+	  width: 16px;
+	  height: 16px;
+
+	  border: 2px solid #999;
+	  transition: 0.2s all linear;
+	  outline: none;
+	  margin-right: 5px;
+
+	  position: relative;
+	  top: 3px;
+	}
+
+	input:checked {
+	  border: 6px solid black;
+	}
+
+	.toggle {
+		color:green;
+		font-weight: bold;
+	}
+
+	.toggle:after {
+	  content:'';
+	  display: inline-block;
+	  position: relative;
+	  left: 5px;
+	  top: 1px;
+	  border: 6px solid transparent;
+	  border-left-color: green;
+	}
+	.toggle.open:after {
+	  left: 2px;
+	  top: 4px;
+	  border-color: green transparent transparent;
+	}
+	.toggle:hover {
+	  cursor: pointer;
+	}
+	.toggled-info {
+		display: none;
+	}
+	input[type="radio"]:focus + label::before {
+	    outline: rgb(59, 153, 252) auto 5px;
+	}
+
+	legend {
+		font-size: smaller;
+		text-transform: uppercase;
+	}
+	.candidate {
+	    border-bottom: 1px solid #ccc;
+	    padding-bottom: 10px;
+	    margin-bottom: 10px;
+	}
+	.label {
+		font-style: italic;
+		padding-right: 10px;
+	}
+	.data {
+		font-weight: bold;
+	}
+	h2.cand-name {
+		font-size: 1.25em;
+	    margin: .5em 0 .25em 0;
+	}
+	.instructions {
+		font-size: larger;
+	}	
+	.button-container {
+		text-align: center;
+	}
+	button {
+	  color: green;
+	  font-weight: bold;
+	  font-size: larger;
+	  text-transform: uppercase;
+	}
+	section > div {
+		line-height: 1.5;
+	}
+
+	#cover {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1000;
+		background: #000;
+		opacity: .5;
+	}
+	#message {
+		display: none;
+		text-align: center;
+		background: white;
+		border: 1px solid #333;
+		border-radius: 8px;
+		padding: 20px;
+		position: fixed;
+		top: 200px;
+		left: 0;
+		right: 0;
+		width: 380px;
+		z-index: 2000;
+		margin: auto;
+	}

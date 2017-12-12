@@ -1,0 +1,13 @@
+NOTES:
+
+I chose to create a form because ultimately the vote would be submitted to a server. (I stopped short of coding anything to send the form data.)
+
+I proceeded on the assumption that only one candidate can be chosen.
+
+I assumed that voters should be given the chance to change their vote before submitting.
+
+I chose radio buttons as inputs because their default behavior is to have only one selected, which is what we want. UI best practices recommend that an option should be chosen by default, but in a voting system like this, that seemed clearly unfair.
+
+I chose to use a simple toggle to show or hide the biographical information, rather than automatically closing a bio when another one is opened, because I thought that users might want to have more than one bio open in order to compare candidates.
+
+It pretty much dead-ends after I display the “Thanks” message. Obviously we’d give them something to do next.

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ballot</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+
+  	<article>
+
+	  	<header>
+		    <H1>Ballot</H1>
+		    <p class="instructions">To view a candidate's bio, click "Bio". This will allow you to select a candidate. When you are ready, click "Vote" to submit your ballot. <em>Note: once you have submitted your vote, you cannot change it.</em></p>
+	    </header>
+
+	    <form>
+		  <fieldset>
+		    <legend>Candidates</legend>
+		    <section class="candidate">
+		    	<h2 class="cand-name">Jan Werthers</h2>
+		    	<div class="party"><span class="label">Party:</span><span class="data">Right is Right</span></div>
+		    	<div class="electoral district"><span class="label">Electoral District:</span><span class="data">Downtown</span></div>
+		    	<div class="bio-container">
+		    		<a class="toggle">Bio</a>
+		    		<div class="toggled-info">
+		    			<p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet blandit felis. In euismod varius libero, vel dignissim dolor iaculis non. Sed lacinia tempor nunc scelerisque pharetra. Sed aliquam lobortis sem, nec scelerisque nibh ultrices eget. Sed bibendum nisi ut porta pretium. Quisque ullamcorper nisl fringilla, sodales arcu quis, pellentesque massa. Cras pharetra libero vitae cursus consequat. Etiam ullamcorper tortor at libero ultricies, in molestie mi posuere.</p>
+					    <input type="radio" id="cand1" name="candidates" value="Jan Werthers">
+					    <label for="cand1">Select Jan Werthers</label>
+					</div>
+		    	</div>
+		    </section>
+
+		    <section class="candidate">
+		    	<h2 class="cand-name">Alphonse D’Costa</h2>
+		    	<div class="party"><span class="label">Party:</span><span class="data">Green Green Green</span></div>
+		    	<div class="electoral district"><span class="label">Electoral District:</span><span class="data">Uptown</span></div>
+		    	<div class="bio-container">
+		    		<a class="toggle">Bio</a>
+		    		<div class="toggled-info">
+		    			<p class="bio">Ut ac enim vulputate, feugiat dolor non, hendrerit massa. Phasellus odio nunc, lobortis quis ante vitae, ornare dapibus enim. Pellentesque velit est, molestie eu congue et, consectetur eget sapien. Curabitur pulvinar consequat ex ac consequat. Cras sem tellus, semper quis justo imperdiet, gravida lacinia justo. Donec turpis metus, ornare in auctor at, imperdiet sodales risus. Fusce quis volutpat velit. Nam id urna porttitor, cursus quam eget, finibus lectus. Etiam pellentesque quam varius felis venenatis, nec pellentesque ipsum rhoncus. Nulla ornare non tortor vitae lobortis. Aliquam non scelerisque orci, vel cursus augue. Vestibulum quis bibendum est, in elementum massa. Sed fermentum mauris id ligula semper gravida. Duis egestas auctor mi, pretium ultricies risus.</p>
+					    <input type="radio" id="cand2" name="candidates" value="Alphonse D’Costa">
+					    <label for="cand2">Select Alphonse D’Costa</label>
+					</div>
+		    	</div>
+		    </section>
+
+		    <section class="candidate">
+		    	<h2 class="cand-name">Gita Sing</h2>
+		    	<div class="party"><span class="label">Party:</span><span class="data">Middle Folk</span></div>
+		    	<div class="electoral district"><span class="label">Electoral District:</span><span class="data">Suburbia</span></div>
+		    	<div class="bio-container">
+		    		<a class="toggle">Bio</a>
+		    		<div class="toggled-info">
+		    			<p class="bio">Praesent pellentesque justo lectus, faucibus eleifend libero bibendum ac. Curabitur at tellus dolor. Duis ultricies mi eget suscipit euismod. Fusce elementum pulvinar fringilla. Suspendisse et est dictum, vulputate ex at, pharetra odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut convallis, augue tempus tempus dictum, urna mauris gravida purus, sed mattis ex nulla vel ante. Aliquam erat volutpat. Aliquam erat volutpat.</p>
+					    <input type="radio" id="cand3" name="candidates" value="Gita Sing">
+					    <label for="cand3">Select Gita Sing</label>
+					</div>
+		    	</div>
+		    </section>
+
+		    <section class="candidate">
+		    	<h2 class="cand-name">Earl Bendy</h2>
+		    	<div class="party"><span class="label">Party:</span><span class="data">Red Red Red</span></div>
+		    	<div class="electoral district"><span class="label">Electoral District:</span><span class="data">Inner City</span></div>
+		    	<div class="bio-container">
+		    		<a class="toggle">Bio</a>
+		    		<div class="toggled-info">
+		    			<p class="bio">Ut tempor, tellus in imperdiet finibus, lectus turpis facilisis erat, non faucibus nisl mauris non augue. Aliquam ultrices velit tortor, vel laoreet tellus varius tincidunt. Suspendisse rhoncus eros ac enim aliquet, ut consequat justo maximus. Nullam condimentum aliquam metus nec scelerisque. Sed risus felis, interdum a eros et, egestas sagittis eros. Cras vel nisl quis dui ultrices malesuada sit amet a dolor. Nunc ut justo dignissim, euismod odio vitae, commodo erat. Donec posuere, tellus sit amet commodo efficitur, metus ante ultricies sem, a mollis odio odio nec velit.</p>
+					    <input type="radio" id="cand4" name="candidates" value="Earl Bendy">
+					    <label for="cand4">Select Earl Bendy</label>
+					</div>
+		    	</div>
+		    </section>
+
+		    <section class="candidate">
+		    	<h2 class="cand-name">Betty Bodner</h2>
+		    	<div class="party"><span class="label">Party:</span><span class="data">Lefties</span></div>
+		    	<div class="electoral district"><span class="label">Electoral District:</span><span class="data">Uptown</span></div>
+		    	<div class="bio-container">
+		    		<a class="toggle">Bio</a>
+		    		<div class="toggled-info">
+		    			<p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet blandit felis. In euismod varius libero, vel dignissim dolor iaculis non. Sed lacinia tempor nunc scelerisque pharetra. Sed aliquam lobortis sem, nec scelerisque nibh ultrices eget. Sed bibendum nisi ut porta pretium. Quisque ullamcorper nisl fringilla, sodales arcu quis, pellentesque massa. Cras pharetra libero vitae cursus consequat. Etiam ullamcorper tortor at libero ultricies, in molestie mi posuere. Ut ac enim vulputate, feugiat dolor non, hendrerit massa. Phasellus odio nunc, lobortis quis ante vitae, ornare dapibus enim. Pellentesque velit est, molestie eu congue et, consectetur eget sapien. Curabitur pulvinar consequat ex ac consequat. Cras sem tellus, semper quis justo imperdiet, gravida lacinia justo. Donec turpis metus, ornare in auctor at, imperdiet sodales risus. Fusce quis volutpat velit. Nam id urna porttitor, cursus quam eget, finibus lectus. Etiam pellentesque quam varius felis venenatis, nec pellentesque ipsum rhoncus. Nulla ornare non tortor vitae lobortis. Aliquam non scelerisque orci, vel cursus augue. Vestibulum quis bibendum est, in elementum massa. Sed fermentum mauris id ligula semper gravida. Duis egestas auctor mi, pretium ultricies risus. Praesent pellentesque justo lectus, faucibus eleifend libero bibendum ac. Curabitur at tellus dolor. Duis ultricies mi eget suscipit euismod. Fusce elementum pulvinar fringilla. Suspendisse et est dictum, vulputate ex at, pharetra odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut convallis, augue tempus tempus dictum, urna mauris gravida purus, sed mattis ex nulla vel ante. Aliquam erat volutpat. Aliquam erat volutpat.  Ut tempor, tellus in imperdiet finibus, lectus turpis facilisis erat, non faucibus nisl mauris non augue. Aliquam ultrices velit tortor, vel laoreet tellus varius tincidunt. Suspendisse rhoncus eros ac enim aliquet, ut consequat justo maximus. Nullam condimentum aliquam metus nec scelerisque. Sed risus felis, interdum a eros et, egestas sagittis eros. Cras vel nisl quis dui ultrices malesuada sit amet a dolor. Nunc ut justo dignissim, euismod odio vitae, commodo erat. Donec posuere, tellus sit amet commodo efficitur, metus ante ultricies sem, a mollis odio odio nec velit.  Sed diam lacus, dignissim non lorem eget, tempus sollicitudin erat. In ut tincidunt nisi, eget tincidunt quam. Integer tempor pretium cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et tortor ac mauris viverra maximus semper ac erat. Maecenas gravida ligula nibh, et luctus mi elementum ac. Sed dignissim libero arcu, non ultricies tellus gravida in. Aenean placerat fringilla ligula, nec pellentesque erat consectetur at. Fusce vel neque blandit, commodo est eget, pharetra arcu. Nam iaculis ligula nec sodales vulputate. Donec vehicula elit quis lorem bibendum tempus. Vivamus vitae mauris non orci egestas porta id id orci. Nulla rutrum nisi a tincidunt tempor. Nunc dictum arcu in vestibulum semper. Etiam tincidunt ante sed sagittis sodales.</p>
+					    <input type="radio" id="cand5" name="candidates" value="Betty Bodner">
+					    <label for="cand5">Select Betty Bodner</label>
+					</div>
+		    	</div>
+		    </section>
+
+		    <div class="button-container">
+		      <button id="submit-vote" type="button" name="vote" value="Submit Vote" accesskey="s" disabled>Submit Vote</button>
+		    </div>
+
+		  </fieldset>
+
+		</form>
+
+	</article>
+	
+	<div id="cover"></div>
+	<div id="message">
+		<h2>Thank you!</h2>
+		<p>Thanks for voting. Watch this space for results.</p>
+	</div>
+
+  </body>
+
+</html>
